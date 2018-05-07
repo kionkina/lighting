@@ -17,9 +17,9 @@ light = [[0.5,
          [0,
           255,
           255]]
-areflect = [0.1,
-            0.1,
-            0.1]
+areflect = [.2,
+            .2,
+            .2]
 dreflect = [0.5,
             0.5,
             0.5]
@@ -36,3 +36,5 @@ polygons = []
 transform = new_matrix()
 
 parse_file( 'script', edges, polygons, transform, screen, zbuffer, view, ambient, light, areflect, dreflect, sreflect)
+
+#parse_file( 'myscript', edges, polygons, transform, screen, zbuffer, view, ambient, light, areflect, dreflect, sreflect)

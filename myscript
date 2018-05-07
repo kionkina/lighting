@@ -1,0 +1,15 @@
+#BALL
+push
+
+move
+250 175 0
+scale
+3 3 3 
+rotate
+y 90
+sphere
+0 0 0 50
+pop
+display
+save
+handball.png
